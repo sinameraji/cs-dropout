@@ -11,7 +11,7 @@
 a {
   color: goldenrod;
 }
-input[type=email] {
+input[type=text] {
   width: 90%;
   padding: 5px 10px;
   margin: 10px 0px;

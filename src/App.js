@@ -10,7 +10,7 @@ function App() {
         <div className="imposter">
           <div id="subscribe">
             <h5>Interested? Join the waitlist:</h5>
-            <form name="waitlist" netlify><input type="email" align="left"></input><button type="submit">Join</button></form>
+            <form name="waitlist" netlify><input type="text" align="left"></input><button type="submit">Join</button></form>
             <h6>You'll be notified when this page is updated with byte-sized research-based content and learning roadmaps.</h6>
           </div>
         </div>
@@ -28,7 +28,7 @@ function App() {
       <div className="imposter">
           <div id="subscribe">
             <h5>Join the waitlist:</h5>
-            <form name="waitlist" netlify><input type="email" align="left"></input> <button type="submit">Join</button></form>
+            <form name="waitlist" netlify><input type="text" align="left"></input> <button type="submit">Join</button></form>
             <h6>You'll be notified when this page is updated with byte-sized research-based content and learning roadmaps.</h6>
           </div>
         </div>
