@@ -8,6 +8,21 @@
   font-family: 'Arbutus Slab', serif;
   width: 90%;
 }
+input[type=text] {
+  width: 90%;
+  padding: 5px 10px;
+  margin: 10px 0px;
+  display: block;
+  float: left;
+  box-sizing: border-box;
+  border: 2px solid #05386b;
+  border-radius: 5px;  
+  
+}
+
+#subscribe {
+  padding-top: 5%; 
+}
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .imposter {
@@ -32,6 +47,25 @@
   margin: 0 auto;
   font-style: italic;
 }
+
+
+.outer {
+  background-color:#e0eecc;
+  width:40vw; /* You can define it by % also */
+  height:40vw; /* You can define it by % also */
+  position:relative;
+
+  border-radius: 50%;
+  }
+  
+  .inner {
+  background-color:#edf5e1;
+  top: 25%; left:25%; /* of the container */
+  width:50%; /* of the container */
+  height:50%; /* of the container */
+  position: relative;
+  /* border-radius: 0%; */
+  }
 
 .App-header {
   background-color: #5cdb95;

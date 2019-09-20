@@ -5,8 +5,9 @@ const card = (props) => {
     return(
         <div className="imposter">
           <h1>{props.h1}</h1>
-          <h3>noun</h3> 
-          <p>anxiety or self-doubt that results from persistently undervaluing one’s competence and active role in achieving success, while falsely attributing one's accomplishments to luck or other external forces.</p>
+          <h3>{props.def}</h3>
+          <p>{props.p}</p>
+          <h6><a href={props.link}>{props.reference}</a></h6>
         </div>
     )
 }
