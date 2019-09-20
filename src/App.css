@@ -20,9 +20,14 @@ input[type=email] {
   box-sizing: border-box;
   border: 2px solid #05386b;
   border-radius: 5px;  
-  
 }
-
+button {
+  padding: 5px 10px;
+  display: inline;
+  background-color: goldenrod;
+  border-radius: 5px;  
+  border: 0px;
+}
 #subscribe {
   padding-top: 5%; 
 }
