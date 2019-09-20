@@ -5,6 +5,7 @@ import Card from './Card/Card'
 function App() {
   return (
     <div className="App">
+      <div className="nav"><h1>work in progress (especially the button)</h1></div>
       <header className="App-header">
       <Card h1="The real reason you wanna drop out of Computer Science" p="I wanna show you there are good reasons to believe it may be the system, more than it's you, or the field, and how to adapt and grow despite the systematic mess."></Card>
         <div className="imposter">
