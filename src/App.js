@@ -11,6 +11,7 @@ function App() {
           <div id="subscribe">
             <h5>Interested? Join the waitlist:</h5>
             <form name="waitlist" netlify><input type="text" align="left"></input></form>
+            <h6>You'll be notified when this page is updated with byte-sized research-based content and learning roadmaps.</h6>
           </div>
         </div>
         
@@ -28,6 +29,7 @@ function App() {
           <div id="subscribe">
             <h5>Join the waitlist:</h5>
             <form name="waitlist" netlify><input type="text" align="left"></input></form>
+            <h6>You'll be notified when this page is updated with byte-sized research-based content and learning roadmaps.</h6>
           </div>
         </div>
       {/* <div className='outer'>
