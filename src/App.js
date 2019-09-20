@@ -10,7 +10,7 @@ function App() {
         <div className="imposter">
           <div id="subscribe">
             <h5>Interested? Join the waitlist:</h5>
-            <input type="text" align="left"></input>
+            <form name="waitlist" netlify><input type="text" align="left"></input></form>
           </div>
         </div>
         
@@ -27,7 +27,7 @@ function App() {
       <div className="imposter">
           <div id="subscribe">
             <h5>Join the waitlist:</h5>
-            <input type="text" align="left"></input>
+            <form name="waitlist" netlify><input type="text" align="left"></input></form>
           </div>
         </div>
       {/* <div className='outer'>
