@@ -24,10 +24,16 @@ function App() {
       </div>
       <div className="three App-header">
       <Card h1="The middle 60%" p='"Sahami and Piech have observed that CS educators are more aware of their top and bottom students than they are of their average students, giving ed- ucators a biased perception of their students’ abilities"' reference="M. Sahami and C. Piech." link="https://dl.acm.org/citation.cfm?id=2844621"></Card>
+      <div className="imposter">
+          <div id="subscribe">
+            <h5>Join the waitlist:</h5>
+            <input type="text" align="left"></input>
+          </div>
+        </div>
       {/* <div className='outer'>
           <div className='inner'>&nbsp;</div>
         </div> */}
-        </div>
+      </div>
     </div>
   );
 }
