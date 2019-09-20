@@ -23,9 +23,11 @@ function App() {
       <Card h1="The Geek Gene Hypothesis as a Social Defense" p='"It is easier for computer science educators to blame innate qualities of their students for a lack of learning than it is for the educators to come to terms with the ineffectiveness of their teaching"' reference="Patitsas et al" link="http://doi.acm.org/10.1145/2960310.2960312"></Card>
       </div>
       <div className="three App-header">
-      <div className='outer'>
+      <Card h1="The middle 60%" p='"Sahami and Piech have observed that CS educators are more aware of their top and bottom students than they are of their average students, giving ed- ucators a biased perception of their students’ abilities"' reference="M. Sahami and C. Piech." link="https://dl.acm.org/citation.cfm?id=2844621"></Card>
+      {/* <div className='outer'>
           <div className='inner'>&nbsp;</div>
-        </div></div>
+        </div> */}
+        </div>
     </div>
   );
 }
